@@ -1,52 +1,35 @@
+import { useCallback } from "react";
 import { Particles } from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
-const ParticlesBackground = () => {
+function ParticlesBackground() {
+  const particlesInit = useCallback(async (engine) => {
+    await loadFull(engine);
+  }, []);
+
   return (
     <Particles
       id="tsparticles"
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: "100%",
-        zIndex: -1,
-      }}
+      init={particlesInit}
       options={{
-        fullScreen: { enable: false }, // Important for rendering inside fixed div
+        fullScreen: { enable: true, zIndex: -1 },
         background: {
           color: { value: "#4B0082" },
         },
-        fpsLimit: 60,
+        fpsLimit: 120,
         particles: {
-          number: {
-            value: 60,
-            density: {
-              enable: true,
-              area: 800,
-            },
-          },
+          number: { value: 60, density: { enable: true, area: 800 } },
           color: { value: "#ffffff" },
+          links: { enable: true, distance: 150, color: "#ffffff", opacity: 0.5, width: 1 },
+          move: { enable: true, speed: 1, direction: "none", random: true },
           shape: { type: "circle" },
-          opacity: { value: 0.5 },
-          size: { value: { min: 1, max: 3 } },
-          move: {
-            enable: true,
-            speed: 1,
-            outModes: { default: "bounce" },
-          },
-          links: {
-            enable: true,
-            color: "#ffffff",
-            distance: 120,
-            opacity: 0.4,
-            width: 1,
-          },
+          opacity: { value: 0.5, random: true },
+          size: { value: { min: 1, max: 3 }, random: true },
         },
         detectRetina: true,
       }}
     />
   );
-};
+}
 
 export default ParticlesBackground;

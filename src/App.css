@@ -1,12 +1,11 @@
-/* Base Styles */
+
 body, html, #root {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  scroll-behavior: smooth;
   background: transparent;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* Layout */
@@ -14,6 +13,8 @@ body, html, #root {
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
+  z-index: 0;
+  background-color: #4B164C;
 }
 
 /* Navbar */
@@ -25,7 +26,7 @@ body, html, #root {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem 2rem;
+  padding: 0.5rem 2rem;
   z-index: 1000;
   backdrop-filter: blur(8px);
 }
@@ -34,7 +35,7 @@ body, html, #root {
 .nav-links a {
   color: white;
   margin: 0 0.5rem;
-  font-size: 1.5rem;
+  font-size: 20;
   text-decoration: none;
 }
 
