@@ -6,7 +6,6 @@ body, html, #root {
   overflow-x: hidden;
   color: white;
   scroll-behavior: smooth;
-  /* font-family: 'Arial', sans-serif; */
 }
 
 /* ===== LAYOUT ===== */
@@ -253,7 +252,7 @@ body, html, #root {
   opacity: 0.8;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/* ===== Mobile View ===== */
 @media (max-width: 768px) {
   .navbar {
     padding: 0.5rem 0.2rem;
@@ -261,9 +260,9 @@ body, html, #root {
   }
 
   .nav-links {
-    display: flex; /* Keep links visible */
-    gap: 0.2rem; /* Reduce spacing */
-    font-size: 0.85rem; /* Smaller text */
+    display: flex; 
+    gap: 0.2rem; 
+    font-size: 0.85rem; 
   }
 
   .nav-icons a, 
@@ -291,17 +290,17 @@ body, html, #root {
 
   .about-content {
     flex-direction: column;
-    align-items: center; /* Center all items */
+    align-items: center; 
   }
 
   .about-image {
-    margin-bottom: 2rem; /* Add space below image */
+    margin-bottom: 2rem; 
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center; 
   }
 
   .profile-pic {
-    max-width: 250px; /* Slightly smaller for mobile */
+    max-width: 250px; 
   }
   
   .tech-list {
