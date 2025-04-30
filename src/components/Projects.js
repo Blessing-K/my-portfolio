@@ -11,7 +11,7 @@ function Projects() {
         <p>A full-stack AI/ML study focus app built with React and AWS Amplify. It helps users identify their weakest courses and suggests improvement tips using AI.</p>
         <div className="project-buttons">
           <a href="https://github.com/Blessing-K/bee-live.git" target="_blank" rel="noopener noreferrer">View Code</a>
-          <a href="https://bee-live-te68.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          <a href="https://bee-live.vercel.app/login" target="_blank" rel="noopener noreferrer">Live Demo</a>
         </div>
       </div>
 
