@@ -256,12 +256,20 @@ body, html, #root {
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 768px) {
   .navbar {
-    justify-content: space-between;
-    padding: 0.8rem;
+    padding: 0.5rem 0.2rem;
+    justify-content: space-around; 
   }
-  
+
   .nav-links {
-    display: none;
+    display: flex; /* Keep links visible */
+    gap: 0.2rem; /* Reduce spacing */
+    font-size: 0.85rem; /* Smaller text */
+  }
+
+  .nav-icons a, 
+  .nav-links a {
+    font-size: 0.7rem; 
+    margin: 0 0.25rem; 
   }
   
   .main-heading {
@@ -280,9 +288,20 @@ body, html, #root {
     flex-direction: column;
     gap: 20px;
   }
-  
+
+  .about-content {
+    flex-direction: column;
+    align-items: center; /* Center all items */
+  }
+
+  .about-image {
+    margin-bottom: 2rem; /* Add space below image */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+
   .profile-pic {
-    margin: 0 auto;
+    max-width: 250px; /* Slightly smaller for mobile */
   }
   
   .tech-list {
@@ -300,6 +319,7 @@ body, html, #root {
   
   .project-card {
     width: 100%;
+    max-width: fit-content;
   }
   
   .project-buttons {
@@ -309,5 +329,10 @@ body, html, #root {
   
   .section {
     padding: 60px 15px;
+  }
+
+  .footer {
+    font-size: 0.7rem;
+    margin: 0%;
   }
 }

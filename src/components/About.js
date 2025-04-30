@@ -30,8 +30,8 @@ function About() {
             </ul>
             
             <p>
-              Outside of studies, I'm passionate about . 
-              I also enjoy .
+              Outside of work and studies, I love to bake. 
+              I also enjoy dancing and vibing to good African music.
             </p>
           </div>
         </div>
