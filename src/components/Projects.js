@@ -25,7 +25,7 @@ function Projects() {
         </div>
       </div>
 
-      <p style={{ marginTop: "2rem" }}>Thanks for viewing! Watch out for more to come.</p>
+      <p style={{ marginTop: "3rem", textAlign: "center" }}>Thanks for viewing! Watch out for more to come.</p>
     </section>
   );
 }
