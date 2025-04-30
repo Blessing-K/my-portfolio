@@ -127,7 +127,7 @@ body, html, #root {
 
 .profile-pic {
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -142,9 +142,9 @@ body, html, #root {
 }
 
 .section-title {
-  font-size: 1.8rem;
-  margin-bottom: 30px;
-  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 60px;
+  /* text-align: center; */
 }
 
 .tech-list {

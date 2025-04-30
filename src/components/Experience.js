@@ -3,7 +3,7 @@ import "../App.css";
 function Experience() {
   return (
     <section id="experience" className="section experience-section">
-      <h2 className="section-title">/ experience</h2>
+      <h2 className="section-title">experience</h2>
       
       <div className="experience-grid">
         <div className="company-header">

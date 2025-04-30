@@ -12,7 +12,7 @@ function About() {
           />
         </div>
         <div className="about-text">
-          <h2 className="section-title">/ about me</h2>
+          <h2 className="section-title">about me</h2>
           <div className="about-details">
             <p>
               I'm currently a <strong>Computer Programming and Analysis</strong> student at <strong>Humber Polytechnic</strong>. 
@@ -27,6 +27,7 @@ function About() {
               <li>Python</li>
               <li>Java</li>
               <li>SQL</li>
+              <li>AWS (Amazon Web Services)</li>
             </ul>
             
             <p>

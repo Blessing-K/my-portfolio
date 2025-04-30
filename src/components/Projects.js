@@ -3,7 +3,7 @@ import "../App.css";
 function Projects() {
   return (
     <section id="projects" className="section">
-      <h2>Projects</h2>
+      <h2 className="section-title">Projects</h2>
 
       {/* Bee-Live Project */}
       <div className="project-card">
