@@ -14,7 +14,7 @@ function Navbar() {
         <div className="nav-icons">
             <a href="https://linkedin.com/in/boluwatito-kajopelaye-ola-15678b285" target="_blank" rel="noreferrer"><FaLinkedin /></a>
             <a href="https://github.com/Blessing-K" target="_blank" rel="noreferrer"><FaGithub /></a>
-            <a href="mailto:boluwatitobee@gmail.com"><FaEnvelope /></a>
+            <a href="mailto:blessingkajopelayeola@gmail.com"><FaEnvelope /></a>
         </div>
     </nav>
   );
