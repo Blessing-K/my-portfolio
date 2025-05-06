@@ -13,11 +13,11 @@ function Experience() {
         <ul className="experience-list">
           <li className="experience-item">
             <span className="checkbox">[x]</span>
-            Developed full-stack features using React and Node.js
+            Develop full-stack features using React and Node.js
           </li>
           <li className="experience-item">
             <span className="checkbox">[x]</span>
-            Optimized database queries reducing response time by 30%
+            Leverage prompt engineering to create smart tech experiences
           </li>
         </ul>
         

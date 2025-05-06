@@ -22,6 +22,11 @@ function Home() {
             loop
           />
         </h2>
+        <div className="button-container">
+          <a href="mailto:blessingkajopelayeola@gmail.com" className="connect-button">
+            Connect with me
+          </a>
+        </div>
       </div>
     </section>
   );

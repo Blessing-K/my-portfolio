@@ -31,8 +31,7 @@ function About() {
             </ul>
             
             <p>
-              Outside of work and studies, I love to bake. 
-              I also enjoy dancing and vibing to good African music.
+            Beyond work and studies, I&apos;m passionate about personal growth, whether it&apos;s diving into insightful books or exploring new ideas that push me to evolve. For fun, I dance to music - my perfect escape.
             </p>
           </div>
         </div>
