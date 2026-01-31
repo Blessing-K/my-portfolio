@@ -15,7 +15,7 @@ function Experience() {
         <ul className="experience-list reveal" style={{ "--delay": "0.24s" }}>
           <li className="experience-item">
             <span className="checkbox">[x]</span>
-            Teach Python programming to children aged 7–12 through interactive
+            Teach Python programming to children aged 7–16 through interactive
             lessons and coding exercises
           </li>
           <li className="experience-item">
