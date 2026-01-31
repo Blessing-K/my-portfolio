@@ -54,7 +54,7 @@ function About() {
               </li>
             </ul>
 
-            <p>
+            <p className="reveal" style={{ "--delay": "0.60s" }}>
               Beyond work and school, I&apos;m big on personal growth, mostly
               through podcasts and YouTube (books and I are still negotiating
               😅). I love dancing, it&apos;s my therapy, and I thrive around
