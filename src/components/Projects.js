@@ -33,6 +33,32 @@ function Projects() {
         </div>
       </div>
 
+      <div className="project-card reveal" style={{ "--delay": "0.24s" }}>
+        <h3>Bee-Live</h3>
+        <p>
+          A full-stack AI-powered study focus app built with React/Next.js, AWS
+          Amplify, Lambda(python), and DynamoDB. Users can add courses, get
+          AI-generated study tips, and securely retrieve their saved data across
+          sessions.
+        </p>
+        <div className="project-buttons">
+          <a
+            href="https://github.com/Blessing-K/bee-live.git"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Code
+          </a>
+          <a
+            href="https://bee-live.vercel.app/login"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Live Demo
+          </a>
+        </div>
+      </div>
+
       <div className="project-card reveal" style={{ "--delay": "0.12s" }}>
         <h3>Text Processing Pipeline</h3>
         <p>
@@ -57,34 +83,6 @@ function Projects() {
           </a>
         </div>
       </div>
-
-      {/* Bee-Live Project */}
-      <div className="project-card reveal" style={{ "--delay": "0.24s" }}>
-        <h3>Bee-Live</h3>
-        <p>
-          A full-stack AI-powered study focus app built with React, AWS Amplify,
-          Lambda, and DynamoDB. Users can add courses, get AI-generated study
-          tips, and securely retrieve their saved data across sessions.
-        </p>
-        <div className="project-buttons">
-          <a
-            href="https://github.com/Blessing-K/bee-live.git"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View Code
-          </a>
-          <a
-            href="https://bee-live.vercel.app/login"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live Demo
-          </a>
-        </div>
-      </div>
-
-      {/* Productivity App */}
 
       <p style={{ marginTop: "3rem", textAlign: "center" }}>
         Thanks for viewing! Watch out for more to come.
