@@ -36,11 +36,7 @@ function Projects() {
       <div className="project-card reveal" style={{ "--delay": "0.24s" }}>
         <h3>Bee-Live</h3>
         <p>
-          A full-stack AI-powered academic performance app built with Next.js,
-          AWS Amplify, Lambda (Python), and DynamoDB, enabling users to rank
-          courses from weakest to strongest, prioritize improvement areas, and
-          receive personalized AI study recommendations with secure data
-          persistence.
+          A full-stack academic performance app that lets students set goals, prioritizes courses from weakest to strongest, and provides AI-powered study recommendations to improve results. Built with Next.js, AWS Amplify, AWS Lambda (Python), and DynamoDB.
         </p>
         <div className="project-buttons">
           <a
